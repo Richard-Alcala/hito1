@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Contacto - Test Suite</title>
+</head>
+<body>
+    <header>
+        <h1>Página de Test Suite</h1>
+        <img src="images/logo.png" alt="Logo de Test Suite">
+        <p>Nombre: Proyecto Test Suite</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="file1.html">File 1</a></li>
+            <li><a href="file2.html">File 2</a></li>
+            <li><a href="file3.html">File 3</a></li>
+            <li><a href="file4.html">File 4</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2>Contacto</h2>
+        <p>Te interesa alguno de nuestros producto? escríbenos... nos pondremos en contacto contigo a la brevedad.</p>
+
+        <form action="enviar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label><br>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+
+            <label for="email">Correo electrónico:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensaje">Mensaje:</label><br>
+            <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Test Suite. Todos los derechos reservados.</p>
+        <p>Contacto: contacto@testsuite.com</p>
+    </footer>
+</body>
+</html>
